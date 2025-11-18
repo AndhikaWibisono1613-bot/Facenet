@@ -1,5 +1,34 @@
 # Analisis Praktikum
 
+FaceNet/
+│
+├── data/
+│   ├── train/
+│   │   ├── Andhika/
+│   │   │   ├── a1.jpg
+│   │   │   └── a2.jpg
+│   │   └── Zalda/
+│   │       ├── z1.jpg
+│   │       └── 22.jpg
+│   │
+│   └── val/
+│       ├── Andhika/
+│       │   └── a1.jpg
+│       └── Zalda/
+│           └── z1.jpg
+│
+├── build_embeddings.py
+├── eval_folder.py
+├── facenet_svm.joblib
+├── predict_one.py
+├── train_classifier.py
+├── train_knn.py
+├── utils_facenet.py
+├── verify_cli.py
+├── verify_pair.py
+├── X_train.npy
+└── y_train.npy
+
 ## utils_facenet.py
 
 Modul inti ini jadi tulang punggung sistem, di mana MTCNN bekerja seperti mata digital yang jeli menemukan dan meluruskan setiap wajah dengan presisi, lalu model InceptionResnetV1 mengubahnya menjadi kode rahasia 512 angka yang unik untuk setiap orang. Fungsi cosine_similarity-nya bertindak seperti pengukur kedekatan hubungan antar wajah, sementara berbagai penanganan error memastikan sistem tetap jalan meski dapat gambar bermasalah.
