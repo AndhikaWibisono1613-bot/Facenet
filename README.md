@@ -1,5 +1,6 @@
 # Analisis Praktikum
 
+```
 FaceNet/
 │
 ├── data/
@@ -28,6 +29,7 @@ FaceNet/
 ├── verify_pair.py
 ├── X_train.npy
 └── y_train.npy
+```
 
 ## utils_facenet.py
 
