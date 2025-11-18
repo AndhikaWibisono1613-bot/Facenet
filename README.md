@@ -28,6 +28,6 @@ Khusus untuk verifikasi satu-satu, script ini membandingkan dua gambar langsung 
 
 Alternatif klasifikasi ini menggunakan pendekatan tetangga terdekat, yang lebih sederhana namun efektif untuk data sedikit. Modelnya mencari kemiripan pola langsung dalam data training, tanpa membangun model kompleks seperti SVM.
 
-verify_cli.py
+## verify_cli.py
 
 Interface command-line ini memungkinkan operasi verifikasi via terminal, cocok untuk integrasi dengan sistem lain atau automasi tugas. Desainnya sederhana tapi powerful, menerima input gambar dan threshold langsung dari parameter command.
